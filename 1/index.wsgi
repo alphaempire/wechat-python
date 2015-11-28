@@ -1,19 +1,19 @@
+# -*- coding: utf-8 -*-
 import os
 
 import sae
 import web
 
 urls = (
-    '/', 'Hello'
+    '/', 'Hello',
 )
 
-app_root = os.path.dirname(__file__)
-templates_root = os.path.join(app_root, 'templates')
-render = web.template.render(templates_root)
 
 class Hello:
     def GET(self):
-        return render.hello()
+        data = web.input()
+        echostr = data.echostr
+        return echostr
 
 app = web.application(urls, globals()).wsgifunc()
 
