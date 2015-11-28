@@ -1,2 +1,3 @@
-name: helloworld
-version: 1
+librares:
+-name: helloworld
+version: "1.0"
