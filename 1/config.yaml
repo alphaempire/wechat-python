@@ -1,11 +1,7 @@
-name: wechat
-version: 1
-
+name: wechat-python
+version: 1.0
 libraries:
 - name: webpy 
-  version: "0.36"
-
+  version: "0.37"
 - name: lxml
   version: "2.3.4"
-
-...
