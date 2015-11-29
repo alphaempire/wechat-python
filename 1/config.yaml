@@ -1,7 +1,2 @@
-name: wechat-python
-version: 1.0
-libraries:
-- name: webpy 
-  version: "0.37"
-- name: lxml
-  version: "2.3.4"
+name: helloworld
+version: 1
